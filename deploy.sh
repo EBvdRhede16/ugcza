@@ -7,7 +7,7 @@ set -e
 npm run docs:build
 
 # navigate into the build output directory
-cd /docs/dist
+cd /docs
 
 # if you are deploying to a custom domain
 # echo 'www.ugcza.com' > CNAME

@@ -5,13 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
     "@mdi/font": "^2.5.94",
     "stylus-loader": "^3.0.2",
     "vue": "^2.5.16",
     "vue-cli-ghpages": "^1.0.0",
+    "vue-gh-pages": "^1.16.3",
     "vuetify": "^1.0.19"
   },
   "devDependencies": {
@@ -45,5 +47,6 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "homepage": "https://github.com/ebvdrhede16/ugcza"
 }

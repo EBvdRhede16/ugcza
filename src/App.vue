@@ -1,6 +1,5 @@
 <template>
   <v-app class="black">
-    <!-- <img src="./assets/t7.jpg" id="t7" /> -->
     <v-toolbar class="ugc-toolbar">
       <img class="ugc-toolbar-logo hidden-xs-only" src="@/assets/logo-name.png" />
       <v-spacer class="hidden-xs-only"></v-spacer>
@@ -175,7 +174,7 @@ export default {
 }
 
 #app {
-  background: url("@/assets/t7.jpg");
+  background: url("./assets/t7.jpg");
 }
   
 </style>

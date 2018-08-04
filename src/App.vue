@@ -2,7 +2,7 @@
   <v-app class="black">
     <!-- <img src="./assets/t7.jpg" id="t7" /> -->
     <v-toolbar class="ugc-toolbar">
-      <img class="ugc-toolbar-logo hidden-xs-only" src="./assets/logo-name.png" />
+      <img class="ugc-toolbar-logo hidden-xs-only" src="~@/assets/logo-name.png" />
       <v-spacer class="hidden-xs-only"></v-spacer>
       <v-toolbar-items class="hidden-xs-only">
         <v-btn id="fb" flat class="outline" href="https://www.facebook.com/UGCZA/">
@@ -78,13 +78,11 @@
           </v-btn>
         </v-flex>
       </v-layout>
-
-
     </v-toolbar>
     <v-container grid-list-xl id="mainContainer">
       <v-layout row wrap style="justify-content: center;">
         <v-flex xs12 text-xs-center>
-          <img id="ugcLogo" src="./assets/logo.png" />
+          <img id="ugcLogo" src="~@/assets/logo.png" />
         </v-flex>
         <v-card class="pa-2 lightbox text-xs-center">
           <v-flex xs12>
@@ -177,7 +175,7 @@ export default {
 }
 
 #app {
-  background: url("./assets/t7.jpg");
+  background: url("~@/assets/t7.jpg");
 }
   
 </style>
